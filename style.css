@@ -114,18 +114,18 @@ form input[type=submit]{
       max-width: 90%;
       height: auto;
       padding: 20px;
-      margin-lefit:15px;
+      margin-left: 15px !important;
     }
     form h1 {
       font-size: 20pt;
-      coloe: #3206f3;
+      color: #3206f3 !important;
     }
     form .input-single {
       margin: 20px 0;
     }
     form .input-single .input {
       font-size: 12px;
-      background-color: #ffffff;
+      background: #ffffff !important;
       border-bottom: 3px solid #3206f3;
     }
     form input[type=submit] {
