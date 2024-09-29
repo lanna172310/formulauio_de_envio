@@ -118,16 +118,44 @@ form input[type=submit]{
     }
     form h1 {
       font-size: 20pt;
+      coloe: #3206f3;
     }
     form .input-single {
       margin: 20px 0;
     }
     form .input-single .input {
       font-size: 12px;
+      background-color: #ffffff;
+      border-bottom: 3px solid #3206f3;
     }
     form input[type=submit] {
       padding: 8px 20px;
       font-size: 12pt;
+    }
+}
+ /* Tela média (entre 769px e 992px) */
+@media (min-width: 769px) and (max-width: 992px) {
+    .container {
+      max-width: 80%;
+      padding: 5%;
+    }
+    form {
+      max-width: 80%;
+      height: auto;
+      padding: 30px;
+    }
+    form h1 {
+      font-size: 26pt;
+    }
+    form .input-single {
+      margin: 25px 0;
+    }
+    form .input-single .input {
+      font-size: 13px;
+    }
+    form input[type=submit] {
+      padding: 10px 30px;
+      font-size: 13pt;
     }
 }
   
